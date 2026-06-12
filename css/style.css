@@ -56,7 +56,6 @@ Table OF Contents
 \*----------------------------*/
 
 body {
-  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   color: #333;
 }
@@ -341,7 +340,7 @@ textarea.input {
 }
 
 .section-tab-nav li.active a {
-  color: #D10024;
+  color: #333;
 }
 
 .section-tab-nav li a:hover:after, .section-tab-nav li a:focus:after, .section-tab-nav li.active a:after {
@@ -444,8 +443,8 @@ textarea.input {
 \*----------------------------*/
 
 #header {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   background-color: #15161D;
 }
 
@@ -462,7 +461,7 @@ textarea.input {
 \*----------------------------*/
 
 .header-search {
-  padding: 15px 0px;
+  padding: 5px 0px;
 }
 
 .header-search form {
@@ -481,7 +480,7 @@ textarea.input {
 
 .header-search form .search-btn {
   height: 40px;
-  width: 100px;
+  width: 70px;
   background: #D10024;
   color: #FFF;
   font-weight: 700;
@@ -509,18 +508,18 @@ textarea.input {
 .header-ctn>div>a {
   display: block;
   position: relative;
-  width: 90px;
+  width: 70px;
   text-align: center;
   color: #FFF;
 }
 
 .header-ctn>div>a>i {
   display: block;
-  font-size: 18px;
+  font-size: 12px;
 }
 
 .header-ctn>div>a>span {
-  font-size: 12px;
+  font-size: 8px;
 }
 
 .header-ctn>div>a>.qty {
@@ -634,7 +633,7 @@ textarea.input {
 }
 
 .main-nav>li>a {
-  padding: 20px 0px;
+  padding: 10px 0px;
 }
 
 .main-nav>li>a:hover, .main-nav>li>a:focus, .main-nav>li.active>a {
@@ -2143,7 +2142,7 @@ textarea.input {
   }
   #top-header .header-links.pull-right {
     float: none !important;
-    margin-top: 5px;
+    margin-top: 3px;
   }
   .header-logo {
     float: none;
